@@ -14,6 +14,7 @@ body{
     font-family: Bahnschrift, monospace;
     font-size: 700%;
     align-items: center;
+    text-align: center;
     justify-content: center;
 }
 
@@ -26,40 +27,35 @@ body{
     padding: 10px;
 }
 
-p{
-    width: fit-content;
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-}
-
 .top_text{
     position: absolute;
     top: 0;
 }
 .bot_text{
     position: absolute;
-    align-items: center;
-    top: 80%;
+    top: 80vh;
 }
 
-form{
-    width: fit-content;
-    height: fit-content;
-    position: absolute;
-    top: 68%;
-    left: 40%;
-}
+/*form{*/
+/*    width: fit-content;*/
+/*    height: fit-content;*/
+/*    position: absolute;*/
+/*    top: 68%;*/
+/*    left: 40%;*/
+/*}*/
 
 .gay_button{
     border: 2px solid white;
     background: none;
     border-radius: 15px;
     font-size: 35%;
+    margin: 0;
     font-family: Bahnschrift, monospace;
     color: white;
-    position: absolute;
-    /*top: 70%;*/
+    position: relative;
+    top: 20vh;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .gay_button:hover{
